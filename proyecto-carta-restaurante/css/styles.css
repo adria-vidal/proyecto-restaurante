@@ -1,0 +1,66 @@
+body {
+  background-color: #212529;
+}
+
+.grad {
+  height: 8px;
+  background-image: linear-gradient(90deg, rgb(255, 194, 80), transparent);
+
+  border: 0;
+  height: 3px;
+}
+.grad-light {
+  height: 8px;
+  background-image: linear-gradient(90deg, rgb(255, 255, 255), transparent);
+
+  border: 0;
+  height: 3px;
+}
+.letra-small {
+  font-size: 11px;
+}
+.separador {
+  color: #fffefa;
+  height: 0px;
+
+  border: 1px dashed;
+}
+eslogan_inicio{
+    color: #fffefa;
+}
+.inicio {
+  color: var(--bs-yellow);
+  font-weight: bold;
+  font-family: 'Alfa Slab One', serif;
+  text-align: center;
+  filter: brightness(104%);
+  --bs-body-font-size: 20rem;
+  font-size: 40px;
+  margin: 0px;
+  width: 290px;
+  padding: 0px;
+}
+.burguer {
+  font-family: 'Bubblegum Sans', serif;
+  color: var(--bs-gray-dark);
+  text-align: center;
+  background: var(--bs-yellow);
+  font-size: 52.88px;
+  border-style: none;
+  border-radius: 0px;
+  transform: perspective(0px) rotate(0deg) skew(159deg);
+  transform-origin: center;
+  filter: brightness(104%);
+  text-shadow: 0px 0px;
+}
+
+.semicirculo {
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 200px;
+  border-radius: 150px 150px 0 0;
+  background-color: green;
+  border: 5px;
+}
