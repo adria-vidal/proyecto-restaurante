@@ -32,7 +32,8 @@ eslogan_inicio{
   color: var(--bs-yellow);
   font-weight: bold;
   font-family: 'Alfa Slab One', serif;
-  text-align: center;
+  
+  
   filter: brightness(104%);
   --bs-body-font-size: 20rem;
   font-size: 40px;
